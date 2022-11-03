@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj": {}
+    "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj": {
+    "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj",
         "projectName": "CAssessment2",
-        "projectPath": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj",
-        "packagesPath": "C:\\Users\\happy\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\happy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

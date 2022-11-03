@@ -26,10 +26,14 @@
           "System.ComponentModel": "4.0.1"
         },
         "compile": {
-          "lib/netstandard2.1/SimpleInjector.dll": {}
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/SimpleInjector.dll": {}
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel/4.0.1": {
@@ -38,7 +42,9 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.dll": {}
+          "ref/netstandard1.0/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard1.3/System.ComponentModel.dll": {}
@@ -51,7 +57,9 @@
           "Microsoft.NETCore.Targets": "1.0.1"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {}
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -265,23 +273,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\happy\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj",
       "projectName": "CAssessment2",
-      "projectPath": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\CAssessment2.csproj",
-      "packagesPath": "C:\\Users\\happy\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\Interview\\CAssessment2\\CAssessment2\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\CAssessment2.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\source\\assesstment\\CAssessment2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\happy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -318,7 +326,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -327,7 +336,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
